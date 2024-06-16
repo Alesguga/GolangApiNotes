@@ -1,0 +1,35 @@
+# Ignorar archivos de entorno
+.env
+
+# Ignorar directorios de dependencias
+/vendor/
+/node_modules/
+
+# Ignorar archivos binarios compilados
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar archivos de configuración de IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de cobertura de pruebas
+coverage/
+*.lcov
+
+# Ignorar archivos generados por Go
+/go.sum
+/go.mod
